@@ -76,13 +76,14 @@ Intialises the model, the optimizer, and contains two functions, one for trainin
 Imports helper.py, model.py, and other torch and torch-geometric libraries.
 
 **Default values:-**
-Device= CPU
-Dataset=Proteins
-Batch Size=100
-Learning Rate=0.01
-Weight Decay=0.01
-Hidden Layers =128
-Epochs=100
-Train:Test Split=80-20
+- Device= CPU
+- Dataset=Proteins
+- Batch Size=100
+- Learning Rate=0.01
+- Weight Decay=0.01
+- Hidden Layers =128
+- Epochs=100
+- Train:Test Split=80:20
+
 We use the adam optimizer with the aforementioned parameters to carry out training since it is
 computationally efficient and effective.
